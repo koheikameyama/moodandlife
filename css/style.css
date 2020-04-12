@@ -9,16 +9,20 @@ body {
   background-color: #f2f2f2;
   font-family: 'EB Garamond', serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 14px;
   color: #fff;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
-  width: 100%;
 }
 
 /* Titles */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   color: #fff;
@@ -48,13 +52,15 @@ a {
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #7b7b7b;
   text-decoration: none;
   outline: 0;
 }
 
-a:before, a:after {
+a:before,
+a:after {
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
   -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
   -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -73,6 +79,10 @@ hr {
 
 .mb {
   margin-bottom: 30px;
+}
+
+.clear {
+  clear: both;
 }
 
 /* ==========================================================================
@@ -96,6 +106,7 @@ hr {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow: hidden;
 }
 
 #headerwrap::before {
@@ -136,7 +147,9 @@ hr {
   background: #1a1a1a;
   padding-top: 70px;
   padding-bottom: 70px;
-  text-align: center
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
 }
 
 .f h3 {
@@ -288,7 +301,8 @@ hr {
   left: -200px;
 }
 
-.menu, .body-push {
+.menu,
+.body-push {
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
   -ms-transition: all .3s ease;
@@ -336,10 +350,11 @@ hr {
 }
 
 .contact-form label {
-   color: #999;
+  color: #999;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   padding: 10px 12px;
   border-radius: 0;
   box-shadow: none;
@@ -351,7 +366,7 @@ hr {
   text-align: center;
 }
 
-.contact-form .form-send button  {
+.contact-form .form-send button {
   background: #f0ad4e;
   border: 0;
   padding: 10px 30px;
