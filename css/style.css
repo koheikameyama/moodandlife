@@ -114,11 +114,10 @@ hr {
   width: 100%;
 }
 
-#headerwrap h1 {
+#headerwrap .name {
   margin-top: 150px;
-  color: white;
-  font-size: 70px;
-  font-weight: 700;
+  padding-top: 45px;
+  width: 60%;
 }
 
 #headerwrap h3 {
@@ -132,12 +131,19 @@ hr {
 #headerwrap .logo {
   text-align: left;
   margin-left: 20px;
-  margin-top: 15px;
+  margin-top: 8px;
 }
 
-#headerwrap .logo img {
-  width: 44px;
+#headerwrap .logo-img {
+  width: 46px;
+  margin-top: 3px;
   position: fixed;
+  z-index: 10;
+}
+
+#headerwrap .insta-img {
+  position: fixed;
+  left: 90px;
   z-index: 10;
 }
 
@@ -473,3 +479,8 @@ hr {
 .credits {
   color: #999;
 }
+
+.sketch {
+  width: 92%;
+}
+
